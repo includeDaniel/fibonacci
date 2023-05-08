@@ -1,8 +1,6 @@
-//const name = require("/PATH");
+const fibonacci = (number) => {
 
-module.exports = function Fibonacci(number) {
-
-    var term1 = 0,
+    let term1 = 0,
         term2 = 1,
         term3
 
@@ -15,3 +13,6 @@ module.exports = function Fibonacci(number) {
 
     return term2;
 }
+
+module.exports = fibonacci;
+

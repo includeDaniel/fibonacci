@@ -1,10 +1,10 @@
 {
   "name": "find-fibonacci",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a package who finds a correspondent fibonacci term",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/includeDaniel/find-fibonacci/issues"
   },
-  "homepage": "https://github.com/includeDaniel/find-fibonacci#readme"
+  "homepage": "https://github.com/includeDaniel/find-fibonacci#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
