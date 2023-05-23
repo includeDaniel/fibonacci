@@ -4,4 +4,4 @@ const fibonacci = (number) => {
 }
 
 
-console.log(fibonacci(6))
+module.exports = fibonacci;
