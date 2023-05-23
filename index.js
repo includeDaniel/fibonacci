@@ -1,18 +1,7 @@
 const fibonacci = (number) => {
-
-    let term1 = 0,
-        term2 = 1,
-        term3
-
-    while (number >= 0) {
-        term3 = term1;
-        term1 = term1 + term2;
-        term2 = term3;
-        number--;
-    }
-
-    return term2;
+    if (number <= 2) return 1
+    return (fibonacci(number - 1) + fibonacci(number - 2))
 }
 
-module.exports = fibonacci;
 
+console.log(fibonacci(6))
