@@ -1,0 +1,26 @@
+name: Main
+
+on:
+    pull_request:
+        branches:
+            - main
+    push:
+        branches:
+            - main
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
+            - name: Install Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 16.x
+            - name: Install dependencies
+              run: yarn
+
+            - name: Check tests
+              run: yarn test --coverage
