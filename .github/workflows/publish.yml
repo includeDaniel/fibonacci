@@ -1,12 +1,8 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
-
 name: Publish
-
-on:
+'on':
   release:
-    types: [published]
-
+    types:
+      - published
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -15,18 +11,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org
-
+          registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-
       - name: Test
         run: yarn test --ci --coverage
-
       - name: Version
-        run: yarn version --new-version "${GITHUB_REF:11}" --no-git-tag-version
-
+        run: 'yarn version --new-version "${GITHUB_REF:11}" --no-git-tag-version'
       - name: Publish
         run: yarn publish --access public
-        env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        env: null
+        NODE_AUTH_TOKEN: '${{ secrets.NPM_TOKEN }}'
