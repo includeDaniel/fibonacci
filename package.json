@@ -1,6 +1,6 @@
 {
   "name": "find-fibonacci",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a package who finds a correspondent fibonacci term",
   "main": "index.js",
   "scripts": {
