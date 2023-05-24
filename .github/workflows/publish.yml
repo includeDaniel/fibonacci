@@ -22,7 +22,7 @@ jobs:
               run: yarn test --ci --coverage
 
             - name: Version
-              run: yarn version --new-version "${GITHUB_REF:11}" --no-git-tag-version
+              run: yarn version --no-git-tag-version
 
             - name: Publish
               run: yarn publish --access public
