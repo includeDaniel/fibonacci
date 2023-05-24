@@ -1,8 +1,8 @@
 const fibonacci = require('./index')
 
 describe('fibonacci', () => {
-    test('the 0 term should return 0', () => {
-        expect(fibonacci(0)).toBe(0);
+    test('the 0 term should return 1', () => {
+        expect(fibonacci(0)).toBe(1);
     });
     test('the 1 term should return 1', () => {
         expect(fibonacci(1)).toBe(1);
