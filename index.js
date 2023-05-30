@@ -13,5 +13,4 @@ const fibonacci = (n, prev = new Map()) => {
     prev.set(n, next)
     return next
 }
-
 module.exports = fibonacci;
