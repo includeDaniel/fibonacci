@@ -12,6 +12,6 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: yarn
-      - run: yarn publish --access=public --verbose
+      - run: yarn publish --verbose --access public 
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
