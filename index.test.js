@@ -1,4 +1,4 @@
-const fibonacci = require('./index')
+const fibonacci = require('./dist/index')
 
 describe('fibonacci', () => {
     test('the 0 term should return 0', () => {
