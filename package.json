@@ -9,9 +9,10 @@
   "files": [
     "index.js"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/includedaniel/npm-publish.git"
+    "url": "https://github.com/includeDaniel/find-fibonacci"
   },
   "keywords": [
     "npm",
@@ -22,10 +23,10 @@
   "author": {
     "name": "Daniel Nunes da Silva",
     "email": "danielzcomputacao@gmail.com",
-    "url": "https://includedaniel.com"
+    "url": "https://github.com/includeDaniel"
   },
   "bugs": {
-    "url": "https://github.com/includedaniel/npm-publish/issues"
+    "url": "https://github.com/includedaniel/find-fibonacci/issues"
   },
-  "homepage": "https://github.com/includedaniel/npm-publish#readme"
+  "homepage": "https://github.com/includedaniel/find-fibonacci#readme"
 }
