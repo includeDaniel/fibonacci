@@ -1,5 +1,8 @@
 {
   "name": "find-fibonacci",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "version": "1.0.5",
   "description": "a package who finds a correspondent fibonacci term",
   "main": "index.js",
@@ -8,10 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/includeDaniel/find-fibonacci.git"
+    "url": "https://github.com/includeDaniel/find-fibonacci.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "package",
+    "npm",
+    "fibonacci"
+  ],
+  "author": "Daniel Nunes da Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/includeDaniel/find-fibonacci/issues"
