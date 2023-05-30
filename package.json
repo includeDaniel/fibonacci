@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "a package who finds a correspondent fibonacci term",
   "main": "dist/index.js",
   "scripts": {
