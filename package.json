@@ -1,34 +1,31 @@
 {
-  "name": "@includedaniel/find-fibonacci",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
-  "version": "1.0.0",
-  "description": "a package who finds a correspondent fibonacci term",
-  "main": "dist/index.js",
+  "name": "@includedaniel/get-fibonacci",
+  "version": "0.0.4",
+  "description": "📦 package who finds a correspondent fibonacci term",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "module": "dist/index.es.js",
   "files": [
-    "dist"
+    "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/includeDaniel/find-fibonacci"
+    "url": "https://github.com/includedaniel/npm-publish.git"
   },
   "keywords": [
-    "package",
     "npm",
-    "fibonacci"
+    "publish",
+    "package",
+    "registry"
   ],
-  "author": "Daniel Nunes da Silva",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/includeDaniel/find-fibonacci/issues"
+  "author": {
+    "name": "Daniel Nunes da Silva",
+    "email": "danielzcomputacao@gmail.com",
+    "url": "https://includedaniel.com"
   },
-  "homepage": "https://github.com/includeDaniel/find-fibonacci#readme",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+  "bugs": {
+    "url": "https://github.com/includedaniel/npm-publish/issues"
+  },
+  "homepage": "https://github.com/includedaniel/npm-publish#readme"
 }
