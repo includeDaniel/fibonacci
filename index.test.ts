@@ -1,6 +1,5 @@
 import fibonacci from ".";
 
-
 describe('fibonacci', () => {
     test('the 0 term should return 0', () => {
         expect(fibonacci(0)).toBe(0);
