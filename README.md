@@ -1,16 +1,32 @@
-# Fibonacci Function
-This is a JavaScript function that calculates the nth term of the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding numbers.
+# Fibonacci Sequence with Memoization
+This is a JavaScript module that calculates the Fibonacci sequence up to a given number n using memoization. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
-Usage
-The function takes a single parameter, number, which represents the term in the Fibonacci sequence to calculate.
-````
-    fibonacci(5); // returns 5
-    fibonacci(10); // returns 55
-    fibonacci(0); // returns 0
+## Instalation
+To use the fibonacci function with memoization, use npm to install the package:
+```bash
+    npm i @includedaniel/fibonacci
     
-````
-If the value of number is less than 1, the function will return 0. If the value of number is 1 or 2, the function will return 1.
+```
+## Usage
+To use the fibonacci function with memoization, require the module in your JavaScript file:
+```bash
+    const fibonacci = require('./fibonacci');
 
-Algorithm
-The function uses a loop to calculate the nth term of the Fibonacci sequence. It initializes two variables, term1 and term2, to 1, and a third variable, result, to 0. It then iterates over the loop, adding term1 and term2 to get the value of result, and then updating the values of term1 and term2 to be the previous two terms in the sequence. The loop continues until it has iterated number - 2 times, at which point the value of result will be the nth term of the sequence.
+    const result = fibonacci(10);
+    console.log(result); // Output: 55
+```
+The fibonacci function takes two parameters:
 
+.'n' (required): The number up to which the Fibonacci sequence should be calculated.
+.'prev' (optional): A 'Map' object used for memoization, which stores previously calculated Fibonacci numbers to improve performance. If not provided, a new Map will be created internally.
+If 'n' is a positive integer, the function will return the Fibonacci number at position 'n' in the sequence. If 'n' is less than or equal to 0, an error will be thrown.
+
+## Memoization
+Memoization is a technique that allows the function to remember (or cache) the results of previous function calls, so that if the function is called again with the same inputs, it can return the cached result instead of recalculating it. This can significantly improve the performance of the function, especially for recursive algorithms like the Fibonacci sequence.
+
+In this implementation, a 'Map' object is used as the memoization cache. When the 'fibonacci' function is called with a particular value of 'n', it first checks if the memoization cache ('prev') already contains the result for that value. If so, it retrieves the result from the cache and returns it immediately. This avoids redundant calculations and improves the overall efficiency of the Fibonacci function.
+
+If the result for the given value of 'n' is not found in the cache, the function calculates it by recursively calling itself for the previous two Fibonacci numbers ('fibonacci(n - 1, prev)' and 'fibonacci(n - 2, prev)'), and then adds the two results together. The calculated result is stored in the cache for future use before being returned.
+
+## License
+This project is licensed under the MIT License.
