@@ -1,7 +1,7 @@
 const fibonacci = (
     n: number,
     prev = new Map<number, number>(),
-    error: string = 'only accepts positive values'
+    error = 'only accepts positive values'
 ): number => {
     if (n < 0) throw new Error(error)
     if (prev.has(n)) return prev.get(n)!
@@ -13,7 +13,7 @@ const fibonacci = (
         prev.set(n, 1)
         return 1
     }
-    const next = fibonacci(n - 1, prev, error) + fibonacci(n - 2, prev, error)
+    const next = fibonacci(n - 1, prev) + fibonacci(n - 2, prev)
     prev.set(n, next)
     return next
 }
