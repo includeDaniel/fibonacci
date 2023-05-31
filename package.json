@@ -1,39 +1,39 @@
 {
-  "name": "@includedaniel/fibonacci",
-  "version": "1.0.4",
-  "description": "📦 package who finds a correspondent fibonacci term",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage"
-  },
-  "files": [
-    "index.js"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/includeDaniel/fibonacci"
-  },
-  "keywords": [
-    "npm",
-    "publish",
-    "package",
-    "registry"
-  ],
-  "author": {
-    "name": "Daniel Nunes da Silva",
-    "email": "danielzcomputacao@gmail.com",
-    "url": "https://github.com/includeDaniel"
-  },
-  "bugs": {
-    "url": "https://github.com/includedaniel/fibonacci/issues"
-  },
-  "homepage": "https://github.com/includedaniel/fibonacci#readme",
-  "devDependencies": {
-    "@types/jest": "^29.5.2",
-    "jest": "^29.5.0",
-    "prettier": "^2.8.8",
-    "ts-jest": "^29.1.0",
-    "typescript": "^5.0.4"
-  }
+    "name": "@includedaniel/fibonacci",
+    "version": "1.0.5",
+    "description": "📦 package who finds a correspondent fibonacci term",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "files": [
+        "index.js"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/includeDaniel/fibonacci"
+    },
+    "keywords": [
+        "npm",
+        "publish",
+        "package",
+        "registry"
+    ],
+    "author": {
+        "name": "Daniel Nunes da Silva",
+        "email": "danielzcomputacao@gmail.com",
+        "url": "https://github.com/includeDaniel"
+    },
+    "bugs": {
+        "url": "https://github.com/includedaniel/fibonacci/issues"
+    },
+    "homepage": "https://github.com/includedaniel/fibonacci#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.2",
+        "jest": "^29.5.0",
+        "prettier": "^2.8.8",
+        "ts-jest": "^29.1.0",
+        "typescript": "^5.0.4"
+    }
 }
