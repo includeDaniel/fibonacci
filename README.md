@@ -3,13 +3,13 @@ This is a JavaScript module that calculates the Fibonacci sequence up to a given
 
 ## Instalation
 To use the fibonacci function with memoization, use npm to install the package:
-```bash
+```npm
     npm i @includedaniel/fibonacci
     
 ```
 ## Usage
 To use the fibonacci function with memoization, require the module in your JavaScript file:
-```bash
+```JavaScript
     const fibonacci = require('./fibonacci');
 
     const result = fibonacci(10);
