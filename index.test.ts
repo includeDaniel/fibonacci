@@ -1,4 +1,5 @@
-const fibonacci = require('./index')
+import fibonacci from ".";
+
 
 describe('fibonacci', () => {
     test('the 0 term should return 0', () => {
