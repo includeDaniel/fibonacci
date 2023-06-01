@@ -1,6 +1,6 @@
 {
   "name": "@includedaniel/fibonacci",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "📦 package who finds a correspondent fibonacci term",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "format": "prettier --write ."
   },
   "files": [
-    "index.js"
+    "src"
   ],
   "license": "MIT",
   "repository": {
