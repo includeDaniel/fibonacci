@@ -2,12 +2,14 @@
   "name": "@includedaniel/fibonacci",
   "version": "1.0.7",
   "description": "📦 package who finds a correspondent fibonacci term",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint . --ext ts --ext tsx --ext js --ext snap",
     "type-check": "tsc --pretty --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "tsc"
   },
   "files": [
     "src"
