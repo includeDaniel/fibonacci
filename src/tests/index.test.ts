@@ -1,4 +1,4 @@
-import fibonacci from '.'
+import fibonacci from '../index'
 
 describe('fibonacci', () => {
   test('the 0 term should return 0', () => {
