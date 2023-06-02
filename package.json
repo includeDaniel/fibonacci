@@ -1,6 +1,6 @@
 {
   "name": "@includedaniel/fibonacci",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "📦 package who finds a correspondent fibonacci term",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,6 +11,9 @@
     "format": "prettier --write .",
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
