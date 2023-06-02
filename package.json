@@ -11,9 +11,6 @@
     "format": "prettier --write .",
     "build": "tsc"
   },
-  "files": [
-    "src"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
