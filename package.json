@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts --ext tsx --ext js --ext snap",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
-    "build": "tsc"
+    "build": "tsc --project tsconfig.build.json"
   },
   "files": [
     "dist"
