@@ -1,6 +1,6 @@
 import dts from 'rollup-plugin-dts'
 import esbuild from 'rollup-plugin-esbuild'
-import packageJson from './package.json' assert { type: 'json' }
+import packageJson from './package.json' assert { type: 'json' } //eslint-disable-line
 
 const name = packageJson.main.replace(/\.js$/, '')
 
