@@ -1,9 +1,7 @@
 # Fibonacci Sequence with Memoization
 
 [![main](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml/badge.svg)](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml)
-
 [![npm version](https://img.shields.io/npm/v/@includedaniel/fibonacci.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/fibonacci)
-
 [![codecov](https://codecov.io/gh/includeDaniel/fibonacci/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/fibonacci)
 
 This is a JavaScript module that calculates the Fibonacci sequence up to a given number n using memoization. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
