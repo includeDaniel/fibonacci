@@ -1,6 +1,6 @@
 {
   "name": "@includedaniel/fibonacci",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "📦 package who finds a correspondent fibonacci term",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
