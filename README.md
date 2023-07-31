@@ -17,13 +17,13 @@ Usage:
 ```js
 //module
 import fibonacci from '@includedaniel/fibonacci'
-console.log(fibonacci(25))
+console.log(fibonacci(25)) // 75025
 ```
 
 ```js
 //commomjs
 const fibonacci = require('@includedaniel/fibonacci')
-console.log(fibonacci(25))
+console.log(fibonacci(25)) // 75025
 ```
 
 Running tests:
