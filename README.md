@@ -6,7 +6,13 @@
 
 Install:
 
--   Run `npm i @includedaniel/fibonacci` or `yarn add @includedaniel/fibonacci`
+```
+npm i @includedaniel/fibonacci
+```
+
+```
+yarn add @includedaniel/fibonacci
+```
 
 Usage:
 
