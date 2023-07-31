@@ -4,6 +4,10 @@
 [![npm version](https://img.shields.io/npm/v/@includedaniel/fibonacci.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/fibonacci)
 [![codecov](https://codecov.io/gh/includeDaniel/fibonacci/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/fibonacci)
 
+Install:
+
+-   Run `npm i @includedaniel/fibonacci` to install the package in another project
+
 Running tests:
 
 -   Run `yarn test` to execute the tests and export the reports to `/coverage` folder
