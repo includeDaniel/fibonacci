@@ -1,6 +1,6 @@
 # Fibonacci Sequence with Memoization
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/includeDaniel/todo/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/includeDaniel/fibonacci/blob/main/LICENSE)
 [![main](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml/badge.svg)](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml)
 [![npm version](https://img.shields.io/npm/v/@includedaniel/fibonacci.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/fibonacci)
 [![codecov](https://codecov.io/gh/includeDaniel/fibonacci/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/fibonacci)
