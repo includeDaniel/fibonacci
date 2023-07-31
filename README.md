@@ -6,7 +6,19 @@
 
 Install:
 
--   Run `npm i @includedaniel/fibonacci` to install the package in another project
+-   Run `npm i @includedaniel/fibonacci` or `yarn add @includedaniel/fibonacci`
+
+Usage:
+
+```js
+//module
+import fibonacci from '@includedaniel/fibonacci'
+console.log(fibonacci(25))
+
+//commomjs
+const fibonacci = require('@includedaniel/fibonacci')
+console.log(fibonacci(25))
+```
 
 Running tests:
 
