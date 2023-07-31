@@ -20,7 +20,9 @@ Usage:
 //module
 import fibonacci from '@includedaniel/fibonacci'
 console.log(fibonacci(25))
+```
 
+```js
 //commomjs
 const fibonacci = require('@includedaniel/fibonacci')
 console.log(fibonacci(25))
