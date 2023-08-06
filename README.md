@@ -1,4 +1,4 @@
-# Fibonacci with Memoizaation
+# fibonacci
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/includeDaniel/fibonacci/blob/main/LICENSE)
 [![main](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml/badge.svg)](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml)
